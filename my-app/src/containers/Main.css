@@ -1,0 +1,21 @@
+/* .main-div {
+    height: 100%;
+    width: 100%;
+} */
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.main-header {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    background-color: #184A45FF;
+}

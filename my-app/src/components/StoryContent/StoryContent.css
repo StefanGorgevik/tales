@@ -1,0 +1,29 @@
+.story-content-main {
+    display: flex;
+    flex-direction: column;
+    background-color: #184A45FF;
+    padding: 5%;
+    padding-top: 1%;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.story-content-main h1 {
+    margin-bottom: 10px;;
+}
+.story-content-main p {
+    text-align: left;
+}
+
+.span-x {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.span-x:hover {
+    font-weight: bold;
+}

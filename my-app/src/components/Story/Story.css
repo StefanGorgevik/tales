@@ -1,0 +1,17 @@
+.story-main div {
+    background-color: #184A45FF;
+    width: 200px; 
+    flex-grow: 1;
+    cursor: pointer;
+    height: 150px;
+    min-width: 100%; 
+    object-fit: cover;
+    vertical-align: bottom;
+    transition: 3s;
+    
+}
+
+.story-main {
+    margin: 3%;
+    border-radius: 15px;;
+}
