@@ -8,10 +8,20 @@
     object-fit: cover;
     vertical-align: bottom;
     transition: 3s;
-    
+    font-size:9px;
 }
 
 .story-main {
     margin: 3%;
     border-radius: 15px;;
 }
+
+.box{
+    border:solid 5px #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    height: 5px !important;
+    width: 5px !important;
+    padding: 0;
+    margin: 0;
+  }

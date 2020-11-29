@@ -7,6 +7,7 @@ function Story(props) {
             <div>
                 <h3> {props.story} {props.number}</h3>
             </div>
+            <div class="box"></div>
         </div>
     )
 }
