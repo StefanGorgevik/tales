@@ -5,9 +5,9 @@ function Story(props) {
     return (
         <div className='story-main' onClick={() => props.click(props.story, props.number)}>
             <div>
-                <h3> {props.story} {props.number}</h3>
+                <h3 className="story-title"> {props.title} </h3>
+                <p className="story-story">{props.story}</p>
             </div>
-            <div class="box"></div>
         </div>
     )
 }
